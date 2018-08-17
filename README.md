@@ -4,7 +4,7 @@ Automatically generate grafana dashboard from Netdata metrics and config. (Graph
 requirements:
   - netdata configured to send metric on a backend, like this:
     (/etc/netdata/netdata.conf)
-    [backend]                                                              
+    [backend]
         enabled = yes
         data source = average
         type = graphite
