@@ -3,6 +3,7 @@ Automatically generate grafana dashboard from Netdata metrics and config. (Graph
 
 ## requirements:
 * netdata configured to send metric on a backend, like this:
+
 (/etc/netdata/netdata.conf)
 <pre>[backend]
     enabled = yes 
@@ -19,6 +20,8 @@ Automatically generate grafana dashboard from Netdata metrics and config. (Graph
 * clone this repo on host that run netdata
 * modify netdata-grafana-hosts.conf according to your needs
 * run 'python parser.py'
+
 you'll get a file named [hostname].json
 * import this json on Grafana
+
 maybe all is ok :-)
